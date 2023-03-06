@@ -10,8 +10,11 @@ function Login() {
   const {firebase} = useContext(FirebaseContext)
   const history = useHistory()
   const hadlelogin = (e)=>{
+    console.log("ffff");
     e.preventDefault()
-    firebase.auth().signInWithEmailAndPassword(email,password).then(()=>{
+    firebase.auth().signInWithEmailAndPassword(email,password).then((response)=>{
+      console.log("lllllllllllllllllllll")
+      console.log(response);
       history.push('/')
     }).catch((error)=>{
       alert(error.message)

@@ -4,6 +4,8 @@ import App from './App';
 import { FirebaseContext } from './store/Context'
 import Context from './store/Context'
 import firebase from './firebase/config'
+
+require('dotenv').config()
 ReactDOM.render(
 
     <FirebaseContext.Provider value={{ firebase }}>

@@ -55,7 +55,7 @@ function Header() {
             }}>SELL</span>}
           </div>
         </div>
-      </div>
+      </div>  
     </div>
   );
 }

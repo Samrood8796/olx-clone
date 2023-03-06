@@ -11,4 +11,4 @@ function Post ({children}) {
     )
 }
 
-export default Post
+export default Post;
