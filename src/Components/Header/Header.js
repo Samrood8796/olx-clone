@@ -43,7 +43,7 @@ function Header() {
         </div>
           {user &&<span onClick={()=>{
             firebase.auth().signOut();
-            History.pushState('/login')
+            History.push('/login')
           }}>Logout</span>}
 
         <div className="sellMenu">

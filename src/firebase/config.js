@@ -6,7 +6,7 @@ import 'firebase/storage'
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyAgyHrrwAiAEjAn_9HE9RdRygwzPfD5bdg",
+    apiKey: process.env.REACT_APP_API_KEY,
     authDomain: "fir-4c25c.firebaseapp.com",
     projectId: "fir-4c25c",
     storageBucket: "fir-4c25c.appspot.com",
